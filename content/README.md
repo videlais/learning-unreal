@@ -1,10 +1,6 @@
 # Learning Unreal
 
-A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint foundations](blueprint-foundations.md), and [interactive examples](../examples/index.html). Read the [Unreal 5.8 verification scope](compatibility.md): legacy lessons are not blanket-certified.
-
 ## 1. Orientation and project safety
-
-[Stage lab](coursebook.md#stage-1)
 
 - [Game Engines: What is a game engine?](01-orientation/game-engines-what-is-a-game-engine.md)
 - [Game Engines: Quick history of game engines](01-orientation/game-engines-quick-history-of-game-engines.md)
@@ -18,8 +14,6 @@ A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint fou
 
 ## 2. Actors, components and blockouts
 
-[Stage lab](coursebook.md#stage-2)
-
 - [Unreal: Placing a Cube](02-actors-and-components/unreal-placing-a-cube.md)
 - [Unreal: Arranging Actors using the Transform Tool](02-actors-and-components/unreal-arranging-actors-using-the-transform-tool.md)
 - [Unreal: Creating a Blueprint based on an Actor](02-actors-and-components/unreal-creating-a-blueprint-based-on-an-actor.md)
@@ -32,8 +26,6 @@ A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint fou
 - [Unreal: Blueprints: Levels: What is a level?](02-actors-and-components/unreal-blueprints-levels-what-is-a-level.md)
 
 ## 3. Blueprint fundamentals and debugging
-
-[Stage lab](coursebook.md#stage-3)
 
 - [Unreal: Blueprints: Graphs and Nodes](03-blueprint-fundamentals/unreal-blueprints-graphs-and-nodes.md)
 - [Unreal: Blueprints: Actor Lifecycle](03-blueprint-fundamentals/unreal-blueprints-actor-lifecycle.md)
@@ -51,8 +43,6 @@ A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint fou
 - [Unreal: Blueprints: Getting and Setting](03-blueprint-fundamentals/unreal-blueprints-getting-and-setting.md)
 
 ## 4. Events, references and interaction
-
-[Stage lab](coursebook.md#stage-4)
 
 - [Unreal: Volumes: What is a volume?](04-events-and-interaction/unreal-volumes-what-is-a-volume.md)
 - [Unreal: Volumes: What is an overlap?](04-events-and-interaction/unreal-volumes-what-is-an-overlap.md)
@@ -77,8 +67,6 @@ A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint fou
 
 ## 5. Assets, materials and audio feedback
 
-[Stage lab](coursebook.md#stage-5)
-
 - [Unreal: Mesh: What is a mesh?](05-assets-and-feedback/unreal-mesh-what-is-a-mesh.md)
 - [Unreal: Materials: What is a material?](05-assets-and-feedback/unreal-materials-what-is-a-material.md)
 - [Unreal: Materials: How do we import assets into Unreal?](05-assets-and-feedback/unreal-materials-how-do-we-import-assets-into-unreal.md)
@@ -99,8 +87,6 @@ A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint fou
 
 ## 6. Reusable logic
 
-[Stage lab](coursebook.md#stage-6)
-
 - [Unreal: Flow Control: Do Once](06-reusable-logic/unreal-flow-control-do-once.md)
 - [Unreal: Flow Control: Do N](06-reusable-logic/unreal-flow-control-do-n.md)
 - [Unreal: Flow Control: For Loop](06-reusable-logic/unreal-flow-control-for-loop.md)
@@ -119,8 +105,6 @@ A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint fou
 - [Unreal: Data Structures: Data Table](06-reusable-logic/unreal-data-structures-data-table.md)
 
 ## 7. UI and state
-
-[Stage lab](coursebook.md#stage-7)
 
 - [Unreal: Widgets: What is a Widget?](07-ui-and-state/unreal-widgets-what-is-a-widget.md)
 - [Unreal: Widgets: Designer: Using Designer Mode](07-ui-and-state/unreal-widgets-designer-using-designer-mode.md)
@@ -142,8 +126,6 @@ A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint fou
 - [Unreal: Interactions Prompt: Widget Component + Find Look Rotation](07-ui-and-state/unreal-interactions-prompt-widget-component-find-look-rotation.md)
 
 ## 8. Characters, animation, traces and AI
-
-[Stage lab](coursebook.md#stage-8)
 
 - [Unreal: Characters: What data do we have access to?](08-characters-and-ai/unreal-characters-what-data-do-we-have-access-to.md)
 - [Unreal: Animations: What is an animation? (Animation Blueprint)](08-characters-and-ai/unreal-animations-what-is-an-animation-animation-blueprint.md)
@@ -184,8 +166,6 @@ A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint fou
 
 ## 9. World-building
 
-[Stage lab](coursebook.md#stage-9)
-
 - [Unreal: World Partition: What is the World Partition?](09-world-building/unreal-world-partition-what-is-the-world-partition.md)
 - [Unreal: World Partition: Enabling World Partition](09-world-building/unreal-world-partition-enabling-world-partition.md)
 - [Unreal: World Partition: Data Layers: What is a data layer?](09-world-building/unreal-world-partition-data-layers-what-is-a-data-layer.md)
@@ -203,15 +183,3 @@ A ten-stage self-study path. Use the [coursebook](coursebook.md), [Blueprint fou
 - [Unreal: What is Hierarchical Level of Detail (HLOD)?](09-world-building/unreal-what-is-hierarchical-level-of-detail-hlod.md)
 - [Unreal: HLOD: Using HLOD Clusters](09-world-building/unreal-hlod-using-hlod-clusters.md)
 - [Unreal: HLOD: Using HLOD Volumes](09-world-building/unreal-hlod-using-hlod-volumes.md)
-
-## 10. Optimization, packaging and portfolio
-
-[Stage lab](coursebook.md#stage-10)
-
-- [Unreal: Building on Windows](10-shipping/unreal-building-on-windows.md)
-- [Unreal: Building: macOS](10-shipping/unreal-building-macos.md)
-- [Unreal: Portfolio: Résumé are claims, portfolio is evidence](10-shipping/unreal-portfolio-r-sum-are-claims-portfolio-is-evidence.md)
-- [Unreal: Portfolio: Planning for 30 seconds, 5 minutes, and 20 minutes viewing](10-shipping/unreal-portfolio-planning-for-30-seconds-5-minutes-and-20-minutes-viewing.md)
-- [Unreal: Portfolio: How does this project serve as evidence of your skills?](10-shipping/unreal-portfolio-how-does-this-project-serve-as-evidence-of-your-skills.md)
-- [Unreal: Portfolios: Screenshots versus in-engine captures](10-shipping/unreal-portfolios-screenshots-versus-in-engine-captures.md)
-- [Unreal: Portfolio: Tell your story](10-shipping/unreal-portfolio-tell-your-story.md)
