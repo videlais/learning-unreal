@@ -1,0 +1,10 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Learning",
+  "Description": "Disposable Blueprint verification project; no external assets.",
+  "Plugins": [
+    { "Name": "Verification", "Enabled": true },
+    { "Name": "AndroidFileServer", "Enabled": false }
+  ]
+}

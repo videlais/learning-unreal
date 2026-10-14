@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-14T01:52:42.878Z",
+  "basePath": "/learning-unreal/",
+  "examples": [
+    {
+      "key": "beginplay",
+      "nodes": 2,
+      "links": 1,
+      "framed": true,
+      "canvasColors": 659,
+      "serializationReparse": "passed"
+    },
+    {
+      "key": "overlap",
+      "nodes": 4,
+      "links": 4,
+      "framed": true,
+      "canvasColors": 1301,
+      "serializationReparse": "passed"
+    }
+  ],
+  "passed": true,
+  "nodeEditingExport": "passed",
+  "responsiveFraming": "passed at 800px",
+  "remoteRequests": [],
+  "pageErrors": [],
+  "consoleWarnings": [
+    "The provided value 'undefined' is not a valid enum value of type CanvasTextAlign.",
+    "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  ]
+}

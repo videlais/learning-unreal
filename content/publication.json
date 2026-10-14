@@ -1,0 +1,679 @@
+{
+  "lessons": 164,
+  "screenshots": 402,
+  "policy": "Self-study lessons and instructional screenshots only. Attendance, LMS metadata, personal introduction, original archives, PDFs, FBX and undocumented third-party assets excluded.",
+  "exclusions": [
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-blueprints-macros-example-switch-input-mode-show-or-hide-cursor.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-blueprints-macros-examples-update-global-game-instance-coins.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-blueprints-macros-what-is-a-macro-library.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-blueprints-macros-what-is-a-macro.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-world-partition-data-layers-adding-a-data-layer.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-world-partition-data-layers-loading-a-data-layer.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-world-partition-data-layers-what-is-a-data-layer.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-world-partition-enabling-world-partition.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-world-partition-what-is-the-world-partition.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-damage-system-attacks.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-damage-system-invincibility-frames.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-damage-system-what-is-the-damage-system.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-example-adding-an-attack-responding-to-ia-attack-event.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-example-adding-an-attack-updating-input.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-interaction-prompt-show-widget-fullscreen.md"
+    },
+    {
+      "reason": "Private or unapproved remote resource",
+      "page": "content/07-ui-and-state/unreal-interaction-prompt-show-widget-fullscreen.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-interaction-prompt-what-is-an-interaction-prompt.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-interactions-prompt-widget-component-find-look-rotation.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-interactions-sockets-adding-meshes-to-meshes.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-interactions-sockets-what-is-a-socket.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-ai-ai-controller-adding-ai-controller.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-ai-ai-controller-detecting-a-perception-change.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-ai-ai-controller-detecting-a-stimulus.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-ai-ai-controller-understanding-connection-between-ai-controller-brain-and-character.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-ai-ai-controller-what-is-ai-controller.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-nav-mesh-ai-ai-moveto-node.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-nav-mesh-what-is-a-navigation-mesh-volume.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-data-structures-arrays.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-data-structures-data-table.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-data-structures-structs.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-line-trace-sounds-line-trace-using-the-down-vector.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-line-trace-sounds-what-are-we-stepping-on.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-line-trace-sounds-what-is-a-physical-material.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-line-trace-refining-through-detection-ranges.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-line-trace-seeing-a-line-trace.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-line-trace-what-is-a-raycast-line-trace-in-unreal.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-multi-trace-what-is-a-multi-line-trace.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-shape-trace-what-is-a-shape-trace.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-asset-audit-window.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-assets-reference-viewer.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-assets-size-map.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-foilage-mode-what-is-foliage-mode.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-hlod-using-hlod-clusters.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-hlod-using-hlod-volumes.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-landscape-adding-water.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-landscape-adding-a-landscape-actor.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-landscape-creating-landscape-materials.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-landscape-painting-using-landscape-material.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-landscape-what-is-landscape-mode.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/09-world-building/unreal-what-is-hierarchical-level-of-detail-hlod.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/10-shipping/unreal-building-on-windows.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/10-shipping/unreal-building-macos.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/10-shipping/unreal-portfolio-how-does-this-project-serve-as-evidence-of-your-skills.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/10-shipping/unreal-portfolio-planning-for-30-seconds-5-minutes-and-20-minutes-viewing.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/10-shipping/unreal-portfolio-r-sum-are-claims-portfolio-is-evidence.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/10-shipping/unreal-portfolio-tell-your-story.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/10-shipping/unreal-portfolios-screenshots-versus-in-engine-captures.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/01-orientation/game-engines-quick-history-of-game-engines.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/01-orientation/game-engines-what-is-a-game-engine.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/01-orientation/unreal-what-is-unreal.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/01-orientation/unreal-what-is-an-actor.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-arranging-actors-using-the-transform-tool.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-actor-lifecycle.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-anatomy-of-a-node.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-graphs-and-nodes.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-reacting-to-the-beginning-of-play-beginplay.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-reading-the-output-log.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-creating-a-blueprint-based-on-an-actor.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-placing-a-cube.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/01-orientation/unreal-playing-a-level.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/01-orientation/unreal-understanding-the-epic-games-launcher.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/01-orientation/unreal-understanding-the-unreal-editor.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/01-orientation/unreal-understanding-the-unreal-project-browser.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/01-orientation/unreal-zip-project-for-larger-projects-this-process-can-take-multiple-minutes.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-geometry-converting-multiple-brushes-into-a-single-static-mesh.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-geometry-creating-holes-with-subtractive-geometry.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-geometry-passing-through-add-a-collision-component-and-set-blockall.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-geometry-what-is-geometry-and-how-is-different-from-other-shapes.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-organizing-actors-into-folders.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-renaming-actors.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-actor-communication-access-the-actor-from-an-event-like-overlap.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-actor-communication-save-to-variable-and-access-its-values.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-actor-communication-save-to-variable-and-trigger-its-own-events.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-collectables-destroy-on-collision-enter.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-variables-getting-and-setting-values.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-variables-using-instance-editable-to-update-values-in-unreal-editor-directly.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-variables-what-is-a-variable.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-getting-and-setting-actor-values.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-movement-interp-to-movement-move-to-position.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-movement-projectile-movement-movement-across-space-in-a-direction.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-movement-rotating-movement-component-rotate-in-space.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-movement-what-is-the-movement-floating-pawn-interp-to-projectile-and-rotation-component.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-volumes-adding-overlap-events.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-volumes-what-is-a-trigger.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-volumes-what-is-a-volume.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-volumes-what-is-an-overlap.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-3d-models-importing-files-using-content-drawer.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-3d-models-importing-from-fab-com-when-a-project-is-closed.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-3d-models-importing-from-fab-com-when-a-project-is-open.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-materials-an-imported-image-becomes-a-texture.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-materials-applying-materials-to-meshes.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-materials-converting-textures-to-materials.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-materials-how-do-we-import-assets-into-unreal.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-materials-what-is-a-material.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-mesh-what-is-a-mesh.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-audio-adding-ambient-sound.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-audio-audio-component-play-an-audio-file.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-audio-importing-files.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-audio-looping-audio-per-file-setting.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-audio-spawn-sound-at-location.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-audio-trigger-box-audio-component-for-sound-effects.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-audio-what-is-sound-attenuation.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/05-assets-and-feedback/unreal-spawning-what-is-spawning.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-example-branch-on-collision-actor-has-tag.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-example-branch-on-collision-class-is-child-of.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-flow-control-conditional-sequences.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-flow-control-delay-until-next-tick.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-flow-control-delay.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-flow-control-do-n.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-flow-control-do-once.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-flow-control-for-loop.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-flow-control-sequence.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-flow-control-what-is-flow.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-flow-control-while-loop.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-binding-variables.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-create-widgets-adding-to-viewport.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-designer-adding-buttons-on-panels-on-border.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-designer-using-designer-mode.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-graph-is-variable-events.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-what-is-a-widget.md"
+    },
+    {
+      "reason": "Private or unapproved remote resource",
+      "page": "content/07-ui-and-state/unreal-widgets-what-is-a-widget.md"
+    },
+    {
+      "reason": "Private or unapproved remote resource",
+      "page": "content/07-ui-and-state/unreal-widgets-what-is-a-widget.md"
+    },
+    {
+      "reason": "Private or unapproved remote resource",
+      "page": "content/07-ui-and-state/unreal-widgets-what-is-a-widget.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-blueprints-functions-functions-versus-events.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/06-reusable-logic/unreal-blueprints-functions-what-is-a-function.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-game-instance-accessing-game-instance-from-other-blueprints.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-game-instance-what-is-the-game-instance.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-getting-and-setting.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-global-get-game-instance.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-global-get-player-controller.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-global-player-character.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/04-events-and-interaction/unreal-blueprints-global-what-is-a-global-blueprint.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-blueprints-levels-for-main-menus-and-heads-up-display-use-level.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-blueprints-levels-levels-reaching-down-to-actors.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-blueprints-levels-open-level-load-a-level-replacing-current-one.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/02-actors-and-components/unreal-blueprints-levels-what-is-a-level.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-reviewing-blueprints.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/03-blueprint-fundamentals/unreal-blueprints-understanding-events.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-controllers.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-create-a-heads-up-display-hud.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-creating-main-menu-level-with-widgets.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-remove-menu-hide-cursor-set-input-mode.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-show-and-hide-cursor.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/07-ui-and-state/unreal-widgets-what-are-input-modes.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-blend-spaces-example-1-new-animation-blueprint-same-velocity.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-blend-spaces-example-2-preparing-blend-space.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-blend-spaces-example-3-connect-blend-space-to-animation-graph.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-blend-spaces-what-is-a-blend-space.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-example-blend-space-inside-a-state-machine.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-example-setting-isfalling-in-anim-graph.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-example-what-is-a-jump.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-reviewing-state-machines.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-state-machine-example-1-preparing-states-and-transitions.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-state-machine-example-2-preparing-velocity-as-anim-graph-variable.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-state-machine-example-3-using-velocity-during-transitions-between-states.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-animations-what-is-an-animation-animation-blueprint.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-characters-a-character-is-a-skeletal-mesh-animation-graph-character-movement.md"
+    },
+    {
+      "reason": "Historical or unlicensed attachment",
+      "page": "content/08-characters-and-ai/unreal-characters-what-data-do-we-have-access-to.md"
+    }
+  ]
+}

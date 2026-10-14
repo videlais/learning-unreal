@@ -1,0 +1,10 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Learning Unreal verification",
+  "CanContainContent": false,
+  "Modules": [
+    { "Name": "Verification", "Type": "Editor", "LoadingPhase": "Default" }
+  ]
+}

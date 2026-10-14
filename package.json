@@ -1,0 +1,24 @@
+{
+  "name": "learning-unreal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun tools/build.mjs",
+    "test": "bun test",
+    "validate": "bun tools/validate.mjs",
+    "start": "bun tools/serve.mjs",
+    "test:browser": "bun tools/browser-check.mjs",
+    "test:unreal": "bun tools/unreal-check.mjs"
+  },
+  "dependencies": {
+    "marked": "18.1.1",
+    "sanitize-html": "2.18.0",
+    "ueblueprint": "3.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  },
+  "packageManager": "bun@1.4.3",
+  "engines": { "bun": ">=1.4.3" }
+}

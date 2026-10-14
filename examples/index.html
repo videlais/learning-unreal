@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blueprint teaching lab</title>
+  <link rel="stylesheet" href="../vendor/ueblueprint/css/ueb-style.min.css">
+  <link rel="stylesheet" href="lab.css">
+</head>
+<body>
+  <nav><a href="../index.html">Home</a> | <a href="../content/README.html">Learning path</a> | <a href="README.html">Scope and limitations</a></nav>
+  <h1>Blueprint teaching lab</h1>
+  <p class="notice">This browser renders graphs; it does not execute Unreal gameplay. These synthetic examples passed separate native Unreal 5.8.3 import, compilation, engine round-trip and event-dispatch checks. Physical collision, interactive play and packaging remain unverified. <a href="../content/compatibility.html">Verification scope</a>.</p>
+  <form id="controls">
+    <label>Example <select id="example"><option value="beginplay">BeginPlay to Print String</option><option value="overlap">Actor overlap and tag filter</option></select></label>
+    <label>Message <input id="message" value="Signal pad ready" maxlength="200"></label>
+    <label>Actor Tag <input id="tag" value="ball" maxlength="64"></label>
+    <button type="submit">Rebuild teaching graph</button>
+  </form>
+  <h2 id="title"></h2>
+  <p id="description"></p>
+  <p id="dependencies"></p>
+  <p id="expected"></p>
+  <p><a id="source">Original lesson</a> | <a id="source-image">Original screenshot</a></p>
+  <h2>ueblueprint: interactive view</h2>
+  <p>Pan and zoom, select or move nodes, and inspect their values. Rebuild resets edits. This is not a catalog of all valid Unreal nodes.</p>
+  <p id="ueb-status" role="status" aria-live="polite">Loading...</p>
+  <div id="ueb-container"></div>
+  <button id="export" type="button" disabled>Download edited graph text</button>
+  <h2>Klee: comparison view</h2>
+  <p>The same serialized input is rendered independently. This view does not track edits made above.</p>
+  <p id="klee-status" role="status" aria-live="polite">Loading...</p>
+  <canvas id="klee" width="1400" height="520" aria-label="Klee graph visualizer"></canvas>
+  <h2>Accessible text and static fallback</h2>
+  <p id="sequence"></p>
+  <p>Downloads are candidates for inspection in an Actor Blueprint Event Graph. Missing engine defaults may be reconstructed by Unreal, or may require correction. Compile and test before relying on them.</p>
+  <button id="download" type="button" disabled>Download generated graph text</button>
+  <details><summary>Serialized source text</summary><pre id="serialized"></pre></details>
+  <details><summary>Static browser capture</summary><img id="fallback" alt="Static rendering of the selected synthetic teaching graph"></details>
+  <noscript><p>JavaScript is required for the interactive renderer. Read the linked lesson and original screenshot instead.</p></noscript>
+  <script src="../vendor/klee/klee.min.js"></script>
+  <script type="module" src="lab.mjs"></script>
+</body>
+</html>

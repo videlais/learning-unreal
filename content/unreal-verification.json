@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-14T01:53:18.450Z",
+  "version": {
+    "MajorVersion": 5,
+    "MinorVersion": 8,
+    "PatchVersion": 3,
+    "Changelist": 58210709,
+    "CompatibleChangelist": 55116800,
+    "IsLicenseeVersion": 0,
+    "IsPromotedBuild": 1,
+    "BranchName": "++UE5+Release-5.8"
+  },
+  "platform": "darwin",
+  "passed": true,
+  "stage": "complete",
+  "sourceHashes": {
+    "examples/graphs.mjs": "0da8f835933cebb0e1a00b29eaea44d872d9a6d947152973f1357715c58c6e30",
+    "examples/unreal/SignalGarden/SignalGarden.uproject": "50e581a30cf7bbe35afc77a963e357cc346a20c96fbf0c2520c9eea0615a77aa",
+    "examples/unreal/SignalGarden/Config/DefaultEngine.ini": "3525ba43e633a129cc021eb88f672b9758127ffc73c89b7448151efec48b6212",
+    "examples/unreal/SignalGarden/Source/SignalGardenEditor.Target.cs": "2786a0ab777367a1c717d164bf6cd941b9fac0359fc5c89bd812a9bcedf86477",
+    "examples/unreal/SignalGarden/Plugins/Verification/Verification.uplugin": "21d1f3eff51bd700996fed333dd6312126395c848be4a9b16021f6b2ce208dfa",
+    "examples/unreal/SignalGarden/Plugins/Verification/Source/Verification/Verification.Build.cs": "c9f7038425516c16840353086fe05a1d3b0b9fc78d25da90d4bd3f596380ae69",
+    "examples/unreal/SignalGarden/Plugins/Verification/Source/Verification/Private/LearningCheckCommandlet.cpp": "2bf80b3c95e54ae786ee181c0e2402f1122fb54c77556face3e56a3450172d73"
+  },
+  "scope": [
+    "Native clipboard import",
+    "Blueprint compilation",
+    "Engine export/reimport compilation",
+    "Two Actor BeginPlay dispatches",
+    "Overlap event dispatch: tagged, untagged, Component Tag only"
+  ],
+  "exclusions": [
+    "Physical collision generation",
+    "Interactive PIE",
+    "Packaging",
+    "Legacy lesson reproduction",
+    "Removed project archives"
+  ],
+  "exitCode": 0,
+  "evidence": [
+    "Display: beginplayOriginal imported and compiled: 2 nodes, 1 links, 0 warnings",
+    "Display: beginplayRoundTrip imported and compiled: 2 nodes, 1 links, 0 warnings",
+    "Display: beginplay execution checks passed",
+    "Display: overlapOriginal imported and compiled: 4 nodes, 4 links, 0 warnings",
+    "Display: overlapRoundTrip imported and compiled: 4 nodes, 4 links, 0 warnings",
+    "Display: overlap execution checks passed",
+    "Display: LEARNING_UNREAL_CHECKS_PASSED"
+  ]
+}
